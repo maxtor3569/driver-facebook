@@ -1,8 +1,8 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Extensions;
+namespace GaryBot\Drivers\Facebook\Extensions;
 
-use BotMan\BotMan\Interfaces\QuestionActionInterface;
+use GaryBot\Interfaces\QuestionActionInterface;
 
 class QuickReplyButton implements QuestionActionInterface
 {

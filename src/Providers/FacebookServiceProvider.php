@@ -2,7 +2,6 @@
 
 namespace BotMan\Drivers\Facebook\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use BotMan\BotMan\Drivers\DriverManager;
 use BotMan\Drivers\Facebook\Commands\Nlp;
 use BotMan\Drivers\Facebook\FacebookDriver;

@@ -1,9 +1,9 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Extensions;
+namespace GaryBot\Drivers\Facebook\Extensions;
 
-use BotMan\BotMan\Interfaces\UserInterface;
-use BotMan\BotMan\Users\User as BotManUser;
+use GaryBot\Interfaces\UserInterface;
+use GaryBot\Entity\User as BotManUser;
 
 class User extends BotManUser implements UserInterface
 {

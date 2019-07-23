@@ -1,8 +1,10 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Events;
+namespace GaryBot\Drivers\Facebook\Events;
 
-class MessagingAccountLinking extends FacebookEvent
+use GaryBot\Drivers\Facebook\FacebookDriver;
+
+class MessagingAccountLinking extends FacebookDriver
 {
     /**
      * Return the event name to match.

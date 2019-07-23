@@ -1,9 +1,8 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Commands;
+namespace GaryBot\Drivers\Facebook\Commands;
 
-use BotMan\BotMan\Http\Curl;
-use Illuminate\Console\Command;
+use GaryBot\Http\Curl;
 
 class AddGreetingText extends Command
 {

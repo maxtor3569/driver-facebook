@@ -1,10 +1,11 @@
 <?php
 
-namespace BotMan\Drivers\Facebook;
+namespace GaryBot\Drivers\Facebook;
 
-use Illuminate\Support\Collection;
-use BotMan\BotMan\Messages\Attachments\Location;
-use BotMan\BotMan\Messages\Incoming\IncomingMessage;
+use GaryBot\Collection\Collection;
+use GaryBot\Drivers\Facebook\FacebookDriver;
+use GaryBot\Messages\Attachments\Location;
+use GaryBot\Messages\Incoming\IncomingMessage;
 
 class FacebookLocationDriver extends FacebookDriver
 {
@@ -70,7 +71,7 @@ class FacebookLocationDriver extends FacebookDriver
      * Retrieve location from an incoming message.
      *
      * @param array $messages
-     * @return \BotMan\BotMan\Messages\Attachments\Location
+     * @return Location
      */
     public function getLocation(array $messages)
     {

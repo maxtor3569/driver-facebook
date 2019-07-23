@@ -2,9 +2,11 @@
 
 namespace BotMan\Drivers\Facebook;
 
-use Illuminate\Support\Collection;
-use BotMan\BotMan\Messages\Attachments\Image;
-use BotMan\BotMan\Messages\Incoming\IncomingMessage;
+use GaryBot\Collection\Collection;
+use GaryBot\Drivers\Facebook\FacebookDriver;
+use GaryBot\Messages\Attachments\Image;
+use GaryBot\Messages\Incoming\IncomingMessage;
+
 
 class FacebookImageDriver extends FacebookDriver
 {

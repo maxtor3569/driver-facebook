@@ -1,8 +1,8 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Events;
+namespace GaryBot\Drivers\Facebook\Events;
 
-use BotMan\BotMan\Interfaces\DriverEventInterface;
+use GaryBot\Drivers\DriverEventInterface;
 
 abstract class FacebookEvent implements DriverEventInterface
 {

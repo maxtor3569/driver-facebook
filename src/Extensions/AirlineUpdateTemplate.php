@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Extensions;
+namespace GaryBot\Drivers\Facebook\Extensions;
 
 use BotMan\Drivers\Facebook\Exceptions\FacebookException;
 use BotMan\Drivers\Facebook\Extensions\Airline\AirlineFlightInfo;

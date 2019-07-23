@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Extensions;
+namespace GaryBot\Drivers\Facebook\Extensions;
 
 class AirlineCheckInTemplate extends AbstractAirlineTemplate
 {

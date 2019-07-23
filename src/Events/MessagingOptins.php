@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Events;
+namespace GaryBot\Drivers\Facebook\Events;
 
 class MessagingOptins extends FacebookEvent
 {

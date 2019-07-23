@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Interfaces;
+namespace GaryBot\Drivers\Facebook\Interfaces;
 
 interface Airline
 {

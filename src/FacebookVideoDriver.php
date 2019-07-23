@@ -2,9 +2,10 @@
 
 namespace BotMan\Drivers\Facebook;
 
-use Illuminate\Support\Collection;
-use BotMan\BotMan\Messages\Attachments\Video;
-use BotMan\BotMan\Messages\Incoming\IncomingMessage;
+
+use GaryBot\Collection\Collection;
+use GaryBot\Messages\Attachments\Video;
+use GaryBot\Messages\Incoming\IncomingMessage;
 
 class FacebookVideoDriver extends FacebookDriver
 {

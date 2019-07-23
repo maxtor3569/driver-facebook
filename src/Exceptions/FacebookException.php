@@ -1,8 +1,8 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Exceptions;
+namespace GaryBot\Drivers\Facebook\Exceptions;
 
-use BotMan\BotMan\Exceptions\Base\DriverException;
+use GaryBot\Exceptions\Base\DriverException;
 
 class FacebookException extends DriverException
 {

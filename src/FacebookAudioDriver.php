@@ -1,10 +1,10 @@
 <?php
 
-namespace BotMan\Drivers\Facebook;
+namespace GaryBot\Drivers\Facebook;
 
-use Illuminate\Support\Collection;
 use BotMan\BotMan\Messages\Attachments\Audio;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
+use GaryBot\Collection\Collection;
 
 class FacebookAudioDriver extends FacebookDriver
 {
