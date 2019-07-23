@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\Facebook;
+namespace GaryBot\Drivers\Facebook;
 
 use Illuminate\Support\Collection;
 use BotMan\BotMan\Drivers\HttpDriver;

@@ -1,5 +1,5 @@
 {
-    "name": "botman/driver-facebook",
+    "name": "maxtor3569/driver-facebook",
     "license": "MIT",
     "description": "Facebook Messenger driver for BotMan",
     "keywords": [
@@ -10,20 +10,25 @@
         "Messenger"
     ],
     "homepage": "http://github.com/botman/driver-facebook",
+    "repositories": [
+        {
+            "url": "https://github.com/TheGarious/GaryBot.git",
+            "type": "vcs"
+        }
+    ],
     "authors": [
         {
-            "name": "Marcel Pociot",
+            "name": "Maxime GASTALDO",
             "email": "m.pociot@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "~2.1|~3.0"
+        "thegarious/garybot": "dev-develop"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
-        "phpunit/phpunit": "~5.0",
-        "illuminate/contracts": "~5.5.0",
+        "phpunit/phpunit": "~8.2",
         "mockery/mockery": "dev-master",
         "ext-curl": "*"
     },
