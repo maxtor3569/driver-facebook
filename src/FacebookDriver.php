@@ -3,8 +3,16 @@
 namespace GaryBot\Drivers\Facebook;
 
 
+use GaryBot\Collection\Collection;
+use GaryBot\Drivers\Facebook\Exceptions\FacebookException;
 use GaryBot\Drivers\HttpDriver;
 use GaryBot\Interfaces\VerifiesService;
+use GaryBot\Messages\Incoming\Answer;
+use GaryBot\Messages\Incoming\IncomingMessage;
+use GaryBot\Messages\Outgoing\OutgoingMessage;
+use GaryBot\Messages\Outgoing\Question;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class FacebookDriver extends HttpDriver implements VerifiesService
 {

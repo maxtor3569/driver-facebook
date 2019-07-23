@@ -1,10 +1,10 @@
 <?php
 
-namespace BotMan\Drivers\Facebook\Extensions\Airline;
+namespace GaryBot\Drivers\Facebook\Extensions\Airline;
 
 use JsonSerializable;
-use BotMan\Drivers\Facebook\Interfaces\Airline;
-use BotMan\Drivers\Facebook\Exceptions\FacebookException;
+use GaryBot\Drivers\Facebook\Interfaces\Airline;
+use GaryBot\Drivers\Facebook\Exceptions\FacebookException;
 
 class AirlineBoardingPass implements JsonSerializable, Airline
 {

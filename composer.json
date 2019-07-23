@@ -30,7 +30,8 @@
         "botman/studio-addons": "~1.0",
         "phpunit/phpunit": "~8.2",
         "mockery/mockery": "dev-master",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
